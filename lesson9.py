@@ -1,0 +1,1 @@
+#logical operates : and Returns True if both conditions are true, Otherwise it Returns False.
