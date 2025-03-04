@@ -12,8 +12,9 @@ print(net_price(500))# i this case default values in tax and discount will be us
 import time
 def count(end, start=0):
     for x in range(start, end+ 1):
-        print(x)
+        print(x, end=' ')
         time.sleep(1)#will be the one responsible for interval time wait to count a second
-    print('DONE!!!!')
 
 count(15)
+print()
+print('DONE!!!!')
